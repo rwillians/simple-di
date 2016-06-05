@@ -1,6 +1,6 @@
 {
-    "name": "rwillians/container",
-    "description": "A PHP microframework",
+    "name": "rwillians/simple-di",
+    "description": "PHP DI container alternative to Pimple.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,6 +14,12 @@
         "container-interop/container-interop": "^1.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.4"
+        "phpunit/phpunit": "^5.4",
+        "mockery/mockery": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rwillians\\Container\\": "src/"
+        }
     }
 }

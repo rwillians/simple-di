@@ -1,2 +1,3 @@
-# container
-PHP DI container
+# Container
+
+Simple PHP DI container.

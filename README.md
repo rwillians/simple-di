@@ -1,9 +1,3 @@
-# Simple DI
+# Container
 
 PHP DI container alternative to Pimple.
-
-
-### Todo
-
-- [ ] Docs
-- [ ] Contribution guidelines

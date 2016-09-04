@@ -1,6 +1,7 @@
 {
     "name": "rwillians/simple-di",
     "description": "Simple - a simple PHP7 DI alternative to Pimple",
+    "keywords": ["container", "php7", "dependency injection", "pimple"],
     "type": "library",
     "license": "MIT",
     "authors": [

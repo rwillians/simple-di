@@ -1,6 +1,6 @@
 {
-    "name": "rwillians/container",
-    "description": "Simple container",
+    "name": "rwillians/simple-di",
+    "description": "Simple - a simple PHP7 DI alternative to Pimple",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,9 +12,13 @@
     "require": {
         "php": "^7.0"
     },
+    "require-dev" : {
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    },
     "autoload": {
         "psr-4": {
-            "Rwillians\\Container\\": "src/"
+            "Rwillians\\SimpleDI\\": "src/"
         }
     }
 }

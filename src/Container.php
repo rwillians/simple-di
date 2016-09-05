@@ -116,7 +116,7 @@ class Container implements ContainerInterface
      */
     public function resolve(string $key)
     {
-        if (! array_key_exists($key, $this->values)) {
+        if (! $this->has($key)) {
             throw new ServiceNotFoundException($key);
         }
 
